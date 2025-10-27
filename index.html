@@ -15,15 +15,22 @@
       <div class="container header-inner">
         <a class="brand" href="#">HUANG YONGQIANG</a>
         <nav class="nav" id="site-nav">
-          <a href="#about">关于我</a>
-          <a href="#research">研究兴趣</a>
-          <a href="#education">教育背景</a>
-          <a href="#experience">研究经历</a>
-          <a href="#publications">论文</a>
-          <a href="#projects">工程项目</a>
-          <a href="#contact">联系</a>
+          <a href="#about" data-i18n="nav.about">关于我</a>
+          <a href="#research" data-i18n="nav.research">研究兴趣</a>
+          <a href="#education" data-i18n="nav.education">教育背景</a>
+          <a href="#experience" data-i18n="nav.experience">研究经历</a>
+          <a href="#publications" data-i18n="nav.publications">论文</a>
+          <a href="#projects" data-i18n="nav.projects">工程项目</a>
+          <a href="#contact" data-i18n="nav.contact">联系</a>
         </nav>
-        <button class="nav-toggle" id="nav-toggle" aria-label="切换导航" aria-expanded="false">☰</button>
+        <div class="header-actions">
+          <button class="lang-toggle" id="lang-toggle" aria-label="Switch language">
+            <span class="lang-option" data-lang="zh-CN">中</span>
+            <span class="lang-divider">/</span>
+            <span class="lang-option" data-lang="en">EN</span>
+          </button>
+          <button class="nav-toggle" id="nav-toggle" aria-label="切换导航" aria-expanded="false">☰</button>
+        </div>
       </div>
     </header>
 
@@ -31,18 +38,18 @@
       <section class="hero">
         <div class="container">
           <h1>HUANG YONGQIANG</h1>
-          <p class="subtitle">浙江大学 · 过程装备与控制工程</p>
+          <p class="subtitle" data-i18n="hero.subtitle">浙江大学 · 过程装备与控制工程</p>
           <div class="cta">
-            <a class="btn primary" href="./Resume_Template_for_CV_PhD (2).pdf" target="_blank" rel="noopener" download>下载PDF简历</a>
-            <a class="btn" href="#contact">联系我</a>
+            <a class="btn primary" href="./Resume_Template_for_CV_PhD (2).pdf" target="_blank" rel="noopener" download data-i18n="hero.download">下载PDF简历</a>
+            <a class="btn" href="#contact" data-i18n="hero.contact">联系我</a>
           </div>
         </div>
       </section>
 
       <section id="about" class="section">
         <div class="container">
-          <h2>关于我</h2>
-          <p>
+          <h2 data-i18n="about.title">关于我</h2>
+          <p data-i18n="about.content">
             背景横跨过程装备与控制工程与计算机科学，关注在物理/逻辑约束下的高效、稳健表征与生成方法，致力于提升具身智能的空间推理与人机协作系统的可靠性与可解释性。
           </p>
         </div>
@@ -50,25 +57,25 @@
 
       <section id="research" class="section alt">
         <div class="container">
-          <h2>研究兴趣</h2>
+          <h2 data-i18n="research.title">研究兴趣</h2>
           <ul class="list">
-            <li>结构化表征与稳健性：在物理/逻辑约束下的对比学习与潜空间稳定</li>
-            <li>非欧几里得生成：层级点集重建、多尺度自回归与图表示</li>
-            <li>人机协同与多模态翻译：低资源语言、任务-智能体映射与分配</li>
+            <li data-i18n="research.item1">结构化表征与稳健性：在物理/逻辑约束下的对比学习与潜空间稳定</li>
+            <li data-i18n="research.item2">非欧几里得生成：层级点集重建、多尺度自回归与图表示</li>
+            <li data-i18n="research.item3">人机协同与多模态翻译：低资源语言、任务-智能体映射与分配</li>
           </ul>
         </div>
       </section>
 
       <section id="education" class="section">
         <div class="container">
-          <h2>教育背景</h2>
+          <h2 data-i18n="education.title">教育背景</h2>
           <ul class="timeline">
             <li>
               <div class="timeline-head">
-                <span class="degree">学士，过程装备与控制工程</span>
-                <span class="when">2021 - 2025</span>
+                <span class="degree" data-i18n="education.degree">学士，过程装备与控制工程</span>
+                <span class="when" data-i18n="education.time">2021 - 2025</span>
               </div>
-              <div class="timeline-body">浙江大学（ZJU）</div>
+              <div class="timeline-body" data-i18n="education.school">浙江大学（ZJU）</div>
             </li>
           </ul>
         </div>
@@ -76,7 +83,7 @@
 
       <section id="experience" class="section alt">
         <div class="container">
-          <h2>研究经历</h2>
+          <h2 data-i18n="experience.title">研究经历</h2>
 
           <article class="research-item">
             <div class="research-header">
@@ -174,7 +181,7 @@
 
       <section id="publications" class="section">
         <div class="container">
-          <h2>论文发表</h2>
+          <h2 data-i18n="publications.title">论文发表</h2>
           <ol class="pubs">
             <li>
               <strong>Yongqiang Huang</strong>, Wentao Ye, Liyao Li, Junbo Zhao. "Navigate Complex Physical Worlds via Geometrically Constrained LLM". <em>EMNLP Workshop 2024</em>.
@@ -188,7 +195,7 @@
 
       <section id="projects" class="section alt">
         <div class="container">
-          <h2>工程项目</h2>
+          <h2 data-i18n="projects.title">工程项目</h2>
 
           <article class="project-item">
             <div class="project-header">
@@ -239,12 +246,12 @@
 
       <section id="contact" class="section">
         <div class="container">
-          <h2>联系</h2>
+          <h2 data-i18n="contact.title">联系</h2>
           <p>
-            电话：(+86) 151-3671-9112
-            · 邮箱：<a href="mailto:hyq.cee@zju.edu.cn">hyq.cee@zju.edu.cn</a>
+            <span data-i18n="contact.phone">电话</span>：(+86) 151-3671-9112
+            · <span data-i18n="contact.email">邮箱</span>：<a href="mailto:hyq.cee@zju.edu.cn">hyq.cee@zju.edu.cn</a>
             · GitHub：<a href="https://github.com/hyongqiang-io" target="_blank" rel="noopener">@hyongqiang-io</a>
-            · Scholar：<a href="https://scholar.google.com/" target="_blank" rel="noopener">（待提供）</a>
+            · Scholar：<a href="https://scholar.google.com/" target="_blank" rel="noopener"><span data-i18n="contact.scholar">（待提供）</span></a>
           </p>
         </div>
       </section>
@@ -253,10 +260,11 @@
     <footer class="site-footer">
       <div class="container">
         <span>© <span id="year"></span> HUANG YONGQIANG</span>
-        <a class="resume-link" href="./Resume_Template_for_CV_PhD (2).pdf" target="_blank" rel="noopener" download>下载简历</a>
+        <a class="resume-link" href="./Resume_Template_for_CV_PhD (2).pdf" target="_blank" rel="noopener" download data-i18n="footer.download">下载简历</a>
       </div>
     </footer>
 
+    <script src="i18n.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
