@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>个人主页 | HUANG YONGQIANG</title>
+    <meta name="description" content="学术个人主页，包含关于我、研究兴趣、教育背景、论文发表、项目与教学等信息。" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#">HUANG YONGQIANG</a>
+        <nav class="nav" id="site-nav">
+          <a href="#about">关于我</a>
+          <a href="#research">研究兴趣</a>
+          <a href="#education">教育背景</a>
+          <a href="#experience">研究经历</a>
+          <a href="#publications">论文</a>
+          <a href="#projects">工程项目</a>
+          <a href="#contact">联系</a>
+        </nav>
+        <button class="nav-toggle" id="nav-toggle" aria-label="切换导航" aria-expanded="false">☰</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1>HUANG YONGQIANG</h1>
+          <p class="subtitle">浙江大学 · 过程装备与控制工程</p>
+          <div class="cta">
+            <a class="btn primary" href="./Resume_Template_for_CV_PhD (2).pdf" target="_blank" rel="noopener" download>下载PDF简历</a>
+            <a class="btn" href="#contact">联系我</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h2>关于我</h2>
+          <p>
+            背景横跨过程装备与控制工程与计算机科学，关注在物理/逻辑约束下的高效、稳健表征与生成方法，致力于提升具身智能的空间推理与人机协作系统的可靠性与可解释性。
+          </p>
+        </div>
+      </section>
+
+      <section id="research" class="section alt">
+        <div class="container">
+          <h2>研究兴趣</h2>
+          <ul class="list">
+            <li>结构化表征与稳健性：在物理/逻辑约束下的对比学习与潜空间稳定</li>
+            <li>非欧几里得生成：层级点集重建、多尺度自回归与图表示</li>
+            <li>人机协同与多模态翻译：低资源语言、任务-智能体映射与分配</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <div class="container">
+          <h2>教育背景</h2>
+          <ul class="timeline">
+            <li>
+              <div class="timeline-head">
+                <span class="degree">学士，过程装备与控制工程</span>
+                <span class="when">2021 - 2025</span>
+              </div>
+              <div class="timeline-body">浙江大学（ZJU）</div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="experience" class="section alt">
+        <div class="container">
+          <h2>研究经历</h2>
+
+          <article class="research-item">
+            <div class="research-header">
+              <h3>Mapping task settings and human-machine distribution in workflows</h3>
+              <span class="time-badge">Jul. 2025 - Current</span>
+            </div>
+            <p class="supervisor">导师: Dr. Yu Kaicheng (WLU)</p>
+            <p><strong>项目简介:</strong> 本项目旨在探索人机协作场景，提供开源工作流平台用于人机共进化验证，验证人类在学习新知识/概念情境下等效于小参数/弱性能LLM，推动弱模型在人机系统领域的应用，以及多人/单人情境下工作流中任务设置与人机分配的映射规则。在此基础上提供工作流设计与分配理论。</p>
+            <p><strong>我的角色与贡献:</strong> 作为项目负责人，负责平台(Autoflow)的全栈开发。主导核心研究问题制定、完整实验设计，目前正在进行数据收集与效果评估。</p>
+          </article>
+
+          <article class="research-item">
+            <div class="research-header">
+              <h3>Autoregressive Hierarchical 3D Object Reconstruction</h3>
+              <span class="time-badge">Dec. 2024 - Apr. 2025</span>
+            </div>
+            <p class="supervisor">导师: Prof. Zhang Yue (WLU)</p>
+            <div class="research-content">
+              <div class="research-text">
+                <p><strong>项目简介:</strong> 独立项目，旨在为非欧数据设计新的生成范式。通过图数据引入层级关系，结合自回归解码器学习多层次空间表征。该模型旨在提升3D生成的可编辑性与可解释性，直接解决了我在早期LLM研究中发现的表征挑战。</p>
+                <p><strong>我的角色与贡献:</strong> 独立完成主框架构建，包括数据预处理、点云自编码器、图自编码器以及空间表征token的自回归解码器开发。</p>
+              </div>
+              <div class="research-image">
+                <img src="./多尺度自回归.png" alt="多尺度自回归3D重建框架" />
+              </div>
+            </div>
+          </article>
+
+          <article class="research-item">
+            <div class="research-header">
+              <h3>Navigate Complex Physical Worlds via Geometrically Constrained LLM</h3>
+              <span class="time-badge">Feb. 2024 - Jul. 2024</span>
+            </div>
+            <p class="supervisor">导师: Dr. Zhao Junbo, Researcher (ZJU)</p>
+            <div class="research-content">
+              <div class="research-text">
+                <p><strong>项目简介:</strong> 构建多智能体系统框架以展示LLM的空间理解与规划能力。使用GPT系列作为基础模型进行规划，生成不同粒度的场景图，结合知识图谱与遗传算法求解器实现场景构建与更新。</p>
+                <p><strong>我的角色与贡献:</strong> 作为项目负责人及第一作者，从概念到发表全程主导。设计多智能体协作框架，集成知识图谱，开发3D可视化工作流。该项目深刻揭示了LLM在空间推理中的不可靠性(幻觉问题)，成为后续研究基础表征的主要动机。</p>
+                <p><strong>发表:</strong> "Navigate Complex Physical Worlds via Geometrically Constrained LLM" (Accepted at EMNLP Workshop 2024) <em>Yongqiang Huang</em>, Wentao Ye, Liyao Li, Junbo Zhao</p>
+              </div>
+              <div class="research-images-grid">
+                <img src="./场景生成工作流示意图.png" alt="场景生成工作流示意图" />
+                <img src="./场景生成组图.png" alt="场景生成结果展示" />
+              </div>
+            </div>
+          </article>
+
+          <article class="research-item">
+            <div class="research-header">
+              <h3>An Invariant Latent Space Perspective on Inversion Attack to Large Language Models</h3>
+              <span class="time-badge">Sep. 2024 - Oct. 2024</span>
+            </div>
+            <p class="supervisor">导师: Dr. Zhao Junbo, Researcher (ZJU)</p>
+            <div class="research-content">
+              <div class="research-text">
+                <p><strong>项目简介:</strong> 提出变分逆向编码器(VIE)框架，引入不变潜空间假设与动态过滤机制，有效解决逆向攻击问题，提升大规模语言模型的安全性与鲁棒性。该经历不仅提升了工程技能，也教会了如何为技术识别新的应用场景。</p>
+                <p><strong>我的角色与贡献:</strong> 参与实验设计，主要负责获取几乎所有基线数据与部分鲁棒性数据，完成从代码拆解、模型训练、推理到多准则评估的完整流程。</p>
+                <p><strong>发表:</strong> "An Invariant Latent Space Perspective on Inversion Attack to Large Language Models" (Working Paper) Wentao Ye, Jiaqi Hu, Haobo Wang, Zhiqing Xiao, <em>Yongqiang Huang</em>, Lei Feng, Muzhi Zhu, Liyao Li, Sai Wu, Junbo Zhao</p>
+              </div>
+              <div class="research-image">
+                <img src="./反转攻击流程图.png" alt="反转攻击框架流程" />
+              </div>
+            </div>
+          </article>
+
+          <article class="research-item">
+            <div class="research-header">
+              <h3>What is LLM Focusing on When Making a Superficial Change</h3>
+              <span class="time-badge">Aug. 2024</span>
+            </div>
+            <p class="supervisor">导师: Dr. Zhao Junbo, Researcher (ZJU)</p>
+            <div class="research-content">
+              <div class="research-text">
+                <p><strong>项目简介:</strong> 从注意力视角分析LLM活动的可解释性，特别是LLM处理逻辑扰动语句时的注意力活动，希望总结一套指标评估LLM处理复杂逻辑的能力。</p>
+                <p><strong>我的角色与贡献:</strong> 主导研究。最初识别高层逻辑特征的实验未产生清晰结果，受稀疏注意力启发，我调整方向并证明简单CNN可在字符级扰动期间提取鲁棒注意力特征。该项目强化了方法论坚持的价值。</p>
+              </div>
+              <div class="research-image">
+                <img src="./鲁棒扰动结果.png" alt="注意力扰动分析结果" />
+              </div>
+            </div>
+          </article>
+
+          <article class="research-item">
+            <div class="research-header">
+              <h3>Exploration of Translation Performance of Multimodal Models in Unbalanced Corpus</h3>
+              <span class="time-badge">Aug. 2024 - Dec. 2024</span>
+            </div>
+            <p class="supervisor">导师: Prof. Zhang Yue (WLU)</p>
+            <p><strong>项目简介:</strong> 探索多模态数据是否及如何为低资源语言翻译任务补充额外信息。</p>
+            <p><strong>我的角色与贡献:</strong> 与学长合作，设计基础实验，包括平行语料数据获取与预处理、提示设计、模型部署、推理任务执行与评估。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="publications" class="section">
+        <div class="container">
+          <h2>论文发表</h2>
+          <ol class="pubs">
+            <li>
+              <strong>Yongqiang Huang</strong>, Wentao Ye, Liyao Li, Junbo Zhao. "Navigate Complex Physical Worlds via Geometrically Constrained LLM". <em>EMNLP Workshop 2024</em>.
+            </li>
+            <li>
+              Wentao Ye, Jiaqi Hu, Haobo Wang, Zhiqing Xiao, <strong>Yongqiang Huang</strong>, Lei Feng, Muzhi Zhu, Liyao Li, Sai Wu, Junbo Zhao. "An Invariant Latent Space Perspective on Inversion Attack to Large Language Models". <em>(Working Paper)</em>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="projects" class="section alt">
+        <div class="container">
+          <h2>工程项目</h2>
+
+          <article class="project-item">
+            <div class="project-header">
+              <h3>Development of Data Interface and Motion Visualization</h3>
+              <span class="time-badge">Jan. 2025 - Jun. 2025</span>
+            </div>
+            <p class="supervisor">导师: Prof. Shan Yan (ZJU)</p>
+            <p><strong>项目简介:</strong> 毕业设计项目，主要涉及开发接口插件以实现VeryEngine与ADAMS仿真软件之间的信息交换。</p>
+          </article>
+
+          <article class="project-item">
+            <div class="project-header">
+              <h3>Gas Safety Self-closing Valve</h3>
+              <span class="time-badge">Dec. 2023 - Feb. 2024</span>
+            </div>
+            <p class="supervisor">导师: Dr. Qian Jinyuan, Associate Professor (ZJU)</p>
+            <div class="project-content">
+              <div class="project-text">
+                <p><strong>项目简介:</strong> 校园科技创新平台提供的工程项目，参与了装置设计与专利编辑工作。</p>
+              </div>
+              <div class="project-images-grid">
+                <img src="./自闭阀门1.png" alt="燃气安全自闭阀设计图1" />
+                <img src="./自闭阀门2.png" alt="燃气安全自闭阀设计图2" />
+              </div>
+            </div>
+          </article>
+
+          <article class="project-item">
+            <div class="project-header">
+              <h3>Floating Island Aeration Devices Based on High-efficiency Catalysts</h3>
+              <span class="time-badge">Dec. 2022 - May. 2023</span>
+            </div>
+            <p class="supervisor">导师: Prof. Wang Xiuyu (ZJU)</p>
+            <div class="project-content">
+              <div class="project-text">
+                <p><strong>项目简介:</strong> 作为团队负责人，协调团队工作、设计装置、开展实验并汇报结果。获校级节能减排竞赛二等奖。</p>
+              </div>
+              <div class="project-image">
+                <img src="./浮岛.png" alt="基于高效催化剂的浮岛曝气装置" />
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <h2>联系</h2>
+          <p>
+            电话：(+86) 151-3671-9112
+            · 邮箱：<a href="mailto:hyq.cee@zju.edu.cn">hyq.cee@zju.edu.cn</a>
+            · GitHub：<a href="https://github.com/hyongqiang-io" target="_blank" rel="noopener">@hyongqiang-io</a>
+            · Scholar：<a href="https://scholar.google.com/" target="_blank" rel="noopener">（待提供）</a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <span>© <span id="year"></span> HUANG YONGQIANG</span>
+        <a class="resume-link" href="./Resume_Template_for_CV_PhD (2).pdf" target="_blank" rel="noopener" download>下载简历</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
