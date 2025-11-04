@@ -26,15 +26,18 @@ const translations = {
 
     // 研究兴趣
     'research.title': '研究兴趣',
-    'research.item1': '结构化表征与稳健性：在物理/逻辑约束下的对比学习与潜空间稳定',
-    'research.item2': '非欧几里得生成：层级点集重建、多尺度自回归与图表示',
-    'research.item3': '人机协同与多模态翻译：低资源语言、任务-智能体映射与分配',
+    'research.item1': '结构化表征学习：在物理/逻辑约束下的表征学习与稳健性',
+    'research.item2': '非欧几里得数据：多层次图数据的理解和生成问题',
+    'research.item3': '人机协同：人机协作网络中的合作模式与分配理论',
 
     // 教育背景
     'education.title': '教育背景',
     'education.degree': '学士，过程装备与控制工程',
     'education.school': '浙江大学（ZJU）',
-    'education.time': '2021 - 2025',
+    'education.time': '2021.9 - 2025.6',
+    'education.ra_title': '科研助理(RA)',
+    'education.ra_school': '西湖大学（WLU）',
+    'education.ra_time': '2025.6 - 至今',
 
     // 研究经历
     'experience.title': '研究经历',
@@ -45,7 +48,7 @@ const translations = {
 
     // 研究项目1
     'exp1.supervisor': '导师: Dr. Yu Kaicheng (WLU)',
-    'exp1.intro': '本项目旨在探索人机协作场景，提供开源工作流平台用于人机共进化验证，验证人类在学习新知识/概念情境下等效于小参数/弱性能LLM，推动弱模型在人机系统领域的应用，以及多人/单人情境下工作流中任务设置与人机分配的映射规则。在此基础上提供工作流设计与分配理论。',
+    'exp1.intro': '本项目旨在探索人机协作场景，提供开源工作流平台用于人机共进化验证，验证人类在学习新知识/概念情境下等效于小参数/弱性能LLM，推动弱模型在人机系统领域的应用，以及多人/单人情境下工作流中任务设置与人机分配的映射规则。在此基础上提供工作流设计与分配理论，探究三种协作模式对于任务完成质量和效率的影响。',
     'exp1.role': '作为项目负责人，负责平台(Autoflow)的全栈开发。主导核心研究问题制定、完整实验设计，目前正在进行数据收集与效果评估。',
 
     // 研究项目2
@@ -66,7 +69,7 @@ const translations = {
     // 研究项目5
     'exp5.supervisor': '导师: Dr. Zhao Junbo, Researcher (ZJU)',
     'exp5.intro': '从注意力视角分析LLM活动的可解释性，特别是LLM处理逻辑扰动语句时的注意力活动，希望总结一套指标评估LLM处理复杂逻辑的能力。',
-    'exp5.role': '主导研究。最初识别高层逻辑特征的实验未产生清晰结果，受稀疏注意力启发，我调整方向并证明简单CNN可在字符级扰动期间提取鲁棒注意力特征。该项目强化了方法论坚持的价值。',
+    'exp5.role': '我探索模型内部表征的启蒙项目，初步学习了对于内部表征的统计意义与可解释性分析的方法。',
 
     // 研究项目6
     'exp6.supervisor': '导师: Prof. Zhang Yue (WLU)',
@@ -140,15 +143,18 @@ const translations = {
 
     // 研究兴趣
     'research.title': 'Research Interests',
-    'research.item1': 'Structured Representation & Robustness: Contrastive learning and latent space stability under physical/logical constraints',
-    'research.item2': 'Non-Euclidean Generation: Hierarchical point cloud reconstruction, multi-scale autoregression, and graph representation',
-    'research.item3': 'Human-Machine Collaboration & Multimodal Translation: Low-resource languages, task-agent mapping and allocation',
+    'research.item1': 'Structured Representation Learning: Representation learning and robustness under physical/logical constraints',
+    'research.item2': 'Non-Euclidean Data: Understanding and generation of multi-level graph data',
+    'research.item3': 'Human-Machine Collaboration: Collaboration patterns and allocation theory in human-machine collaboration networks',
 
     // 教育背景
     'education.title': 'Education',
     'education.degree': 'B.Eng., Process Equipment and Control Engineering',
     'education.school': 'Zhejiang University (ZJU)',
-    'education.time': '2021 - 2025',
+    'education.time': '2021.9 - 2025.6',
+    'education.ra_title': 'Research Assistant (RA)',
+    'education.ra_school': 'Westlake University (WLU)',
+    'education.ra_time': '2025.6 - Present',
 
     // 研究经历
     'experience.title': 'Research Experience',
@@ -159,7 +165,7 @@ const translations = {
 
     // 研究项目1
     'exp1.supervisor': 'Supervisor: Dr. Yu Kaicheng (WLU)',
-    'exp1.intro': 'This project aims to explore human-machine collaboration scenarios by providing an open-source workflow platform for human-machine co-evolution validation. It verifies that humans in learning new knowledge/concepts are equivalent to small parameter/weak performance LLMs, promotes the application of weak models in human-machine systems, and explores mapping rules for task settings and human-machine distribution in multi-person/single-person workflows. Based on this, it provides workflow design and allocation theory.',
+    'exp1.intro': 'This project aims to explore human-machine collaboration scenarios by providing an open-source workflow platform for human-machine co-evolution validation. It verifies that humans in learning new knowledge/concepts are equivalent to small parameter/weak performance LLMs, promotes the application of weak models in human-machine systems, and explores mapping rules for task settings and human-machine distribution in multi-person/single-person workflows. Based on this, it provides workflow design and allocation theory, exploring the impact of three collaboration modes on task completion quality and efficiency.',
     'exp1.role': 'As project leader, responsible for full-stack development of the platform (Autoflow). Leading core research question formulation and complete experimental design. Currently conducting data collection and effectiveness evaluation.',
 
     // 研究项目2
@@ -180,7 +186,7 @@ const translations = {
     // 研究项目5
     'exp5.supervisor': 'Supervisor: Dr. Zhao Junbo, Researcher (ZJU)',
     'exp5.intro': 'Analyzing the interpretability of LLM activities from an attention perspective, particularly LLM attention activities when processing logically perturbed sentences, hoping to summarize a set of indicators to evaluate LLM capabilities in handling complex logic.',
-    'exp5.role': 'Led the research. Initial experiments to identify high-level logical features did not produce clear results. Inspired by sparse attention, I adjusted direction and proved that simple CNNs can extract robust attention features during character-level perturbations. This project reinforced the value of methodological persistence.',
+    'exp5.role': 'My enlightening project in exploring model internal representations, where I initially learned methods for statistical significance and interpretability analysis of internal representations.',
 
     // 研究项目6
     'exp6.supervisor': 'Supervisor: Prof. Zhang Yue (WLU)',
